@@ -2,7 +2,8 @@
     display: inline;
 }
 .navbarfixed {
-    position: fixed;
+    position:fixed;
+    z-index:1;
     width: 100%;
     top: 0;
 }
@@ -250,7 +251,6 @@ main {
     padding: 20px;
     margin: 50px;
     width: 200px;
-    align-items: left;
     color: white;
     position: fixed;
     top: 100px;
@@ -262,11 +262,11 @@ main {
     border-radius: 15px;
     padding: 20px;
     margin: 50px;
-    left: 300px;
-    margin-top: 100px;
+    left: 200px;
+    top: 100px;
     width: 900px;
-    align-content: right;
     color: white;
+    position: relative;
 }
 #zc h2 {
     color: #149408;
