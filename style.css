@@ -277,11 +277,12 @@ main {
 }
 #zc h2 {
     color: #fff305;
-    font-size: 25px;
-    opacity: 100%
 }
 #zeldatitle {
     font-weight: 100;
+}
+#zeldabody table {
+    background-color: rgb(193, 241, 213);
 }
 
 
