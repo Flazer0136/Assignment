@@ -263,7 +263,7 @@ main {
     display: block;
 }
 #zeldabox {
-    background-color: rgb(49, 31, 69);
+    background-color: rgb(33, 181, 97);
     border: 2px solid black;
     border-radius: 15px;
     padding: 20px;
@@ -271,12 +271,12 @@ main {
     left: 200px;
     top: 50px;
     width: 1000px;
-    color: white;
+    color: rgb(2, 2, 2);
     position: relative;
     margin-bottom: 54px;
 }
 #zc h2 {
-    color: #149408;
+    color: #fff305;
     font-size: 25px;
     opacity: 100%
 }
