@@ -287,9 +287,49 @@ main {
 /* SMASH PAGE */
 #smashbody {
     margin: 0;
-    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/98085597-248c-45ad-acb8-91b700d6f887/ddzyxvh-82fe6f68-e9d4-4363-999e-d0b674b42e91.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk4MDg1NTk3LTI0OGMtNDVhZC1hY2I4LTkxYjcwMGQ2Zjg4N1wvZGR6eXh2aC04MmZlNmY2OC1lOWQ0LTQzNjMtOTk5ZS1kMGI2NzRiNDJlOTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XP78pqCrqzvOQYL_YFeme17xJTp2lAtoY2Rx-ppMGW8') no-repeat center center fixed;
+    background: url('https://media.discordapp.net/attachments/1195548450289369160/1204868005365030932/image.png?ex=65d64bc5&is=65c3d6c5&hm=0e87a38133d2530c081ade946653d24d413b29723200125a79f7abfb1875a734&=&format=webp&quality=lossless&width=1440&height=810') no-repeat center center fixed;
     background-size: cover;
 }
+#contentboxsmash {
+    color: white;
+        background-color: rgb(23, 143, 164);
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 15px;
+        padding: 10px;
+        margin: 20px;
+        width: 390px;
+        color: rgb(23, 19, 19);
+        position: fixed;
+        top: 50px;
+        left: 0px;
+        height: 570px;
+}     
+    #contentboxsmash a {
+        color: rgb(197, 42, 42);
+    
+}
+    
+    
+    #smashbox {
+        background-color: rgb(241, 231, 22);
+        border: 2px solid rgb(228, 228, 11);
+        border-radius: 15px;
+        padding: 20px;
+        margin: 20px;
+        left: 100px;
+        top: 50px;
+        width: 1000px;
+        color: rgb(33, 27, 27);
+        position: center;
+    }
+    #sc h2 {
+        color: #149408;
+        font-size: 25px;
+        opacity: 100%
+    }
+    #smashtitle {
+        font-weight: 100;
+    }
 
 
 
