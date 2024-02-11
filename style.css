@@ -260,6 +260,7 @@ main {
 }
 #contentboxzelda a {
     color: white;
+    display: block;
 }
 #zeldabox {
     background-color: rgb(49, 31, 69);
@@ -272,6 +273,7 @@ main {
     width: 1000px;
     color: white;
     position: relative;
+    margin-bottom: 54px;
 }
 #zc h2 {
     color: #149408;
@@ -292,44 +294,44 @@ main {
 }
 #contentboxsmash {
     color: white;
-        background-color: rgb(23, 143, 164);
-        border: 2px solid rgb(255, 255, 255);
-        border-radius: 15px;
-        padding: 10px;
-        margin: 20px;
-        width: 390px;
-        color: rgb(23, 19, 19);
-        position: fixed;
-        top: 50px;
-        left: 0px;
-        height: 570px;
+    background-color: rgb(23, 143, 164);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    width: 390px;
+    color: rgb(23, 19, 19);
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    height: 570px;
 }     
-    #contentboxsmash a {
-        color: rgb(197, 42, 42);
+#contentboxsmash a {
+    color: rgb(197, 42, 42);
     
 }
     
     
-    #smashbox {
-        background-color: rgb(241, 231, 22);
-        border: 2px solid rgb(228, 228, 11);
-        border-radius: 15px;
-        padding: 20px;
-        margin: 20px;
-        left: 100px;
-        top: 50px;
-        width: 1000px;
-        color: rgb(33, 27, 27);
-        position: center;
-    }
-    #sc h2 {
-        color: #149408;
-        font-size: 25px;
-        opacity: 100%
-    }
-    #smashtitle {
-        font-weight: 100;
-    }
+#smashbox {
+    background-color: rgb(241, 231, 22);
+    border: 2px solid rgb(228, 228, 11);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    left: 100px;
+    top: 50px;
+    width: 1000px;
+    color: rgb(33, 27, 27);
+    position: center;
+}
+#sc h2 {
+    color: #149408;
+    font-size: 25px;
+    opacity: 100%
+}
+#smashtitle {
+    font-weight: 100;
+}
 
 
 
