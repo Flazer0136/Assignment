@@ -108,7 +108,6 @@ hr {
 
 #homebody {
     margin: 0;
-    background: url('https://i.redd.it/wrtf7srhd3b71.png') no-repeat center center fixed;
     background-size: cover;
 }
 #wc h2 {
@@ -147,7 +146,6 @@ main {
     margin-top: 100px;
 }
 #homeboxtwo {
-    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7ae6a646-aa7f-4eb0-8c52-20f74618f835/d2bqc1d-07aa1e39-fbbb-419d-a539-f459f584d9ab.png/v1/fill/w_900,h_675,q_80,strp/nintendo_wallpaper_by_toon_orochi_d2bqc1d-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc1IiwicGF0aCI6IlwvZlwvN2FlNmE2NDYtYWE3Zi00ZWIwLThjNTItMjBmNzQ2MThmODM1XC9kMmJxYzFkLTA3YWExZTM5LWZiYmItNDE5ZC1hNTM5LWY0NTlmNTg0ZDlhYi5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.9zTaTuvp867G9KVnKZop4dbVlGDa5_-vmBh47VNxa-4');
     background-size: cover;
     border: 3px solid black;
     border-radius: 15px;
