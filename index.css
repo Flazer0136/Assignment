@@ -1,0 +1,213 @@
+.navbar {
+    display: inline;
+}
+.navbarfixed {
+    position:fixed;
+    z-index:1;
+    width: 100%;
+    top: 0;
+}
+#navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    border: 3px solid black;
+}
+.navbar a:hover:not(.active) {
+    background-color: #111;
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#homenav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#homenav a:hover:not(.active) {
+    background-color: #107dac;
+}
+#homenav {
+    display: inline;
+    float: left;
+    background-color: #50b8e7;
+}
+#marionav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#marionav a:hover:not(.active) {
+    background-color: #b83838;
+}
+#marionav {
+    display: inline;
+    float: left;
+    background-color: #ff5252;
+}
+#smashnav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#zeldanav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#zeldanav a:hover:not(.active) {
+    background-color: #329453;
+}
+#zeldanav {
+    display: inline;
+    float: left;
+    background-color: #5aff91;
+}
+#smashnav a:hover:not(.active) {
+    background-color: 	#ffb805;
+}
+#smashnav {
+    display: inline;
+    float: left;
+    background-color: #ffe505;
+}
+
+
+
+
+
+/* FOOTER SECTION */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    border: 3px solid black;
+    position:sticky;
+}
+hr {
+    border: 1px solid #ccc;
+}
+
+/* MAIN PAGE */
+
+#homebody {
+    margin: 0;
+    background: url('https://i.redd.it/wrtf7srhd3b71.png') no-repeat center center fixed;
+    background-size: cover;
+}
+#wc h2 {
+    color: #107dac;
+    font-size: 25px;
+    opacity: 100%
+}
+#wc p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.25;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#hometitle {
+    font-weight: 100;
+}
+.boxes {
+    display: flex;
+
+}
+
+/* Boxes on the Home Page */
+#homebox {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+    height: 380px;;
+    margin-top: 100px;
+}
+#homeboxtwo {
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7ae6a646-aa7f-4eb0-8c52-20f74618f835/d2bqc1d-07aa1e39-fbbb-419d-a539-f459f584d9ab.png/v1/fill/w_900,h_675,q_80,strp/nintendo_wallpaper_by_toon_orochi_d2bqc1d-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc1IiwicGF0aCI6IlwvZlwvN2FlNmE2NDYtYWE3Zi00ZWIwLThjNTItMjBmNzQ2MThmODM1XC9kMmJxYzFkLTA3YWExZTM5LWZiYmItNDE5ZC1hNTM5LWY0NTlmNTg0ZDlhYi5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.9zTaTuvp867G9KVnKZop4dbVlGDa5_-vmBh47VNxa-4');
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    width: 415px;
+    height: 415px;
+    margin-top: 100px;
+
+}
+#homeboxmain {
+    background: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 1040px;
+}
+#homeboxthree {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 1045px;
+    margin-bottom: 50px;
+}
+#homeboxthree p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+#homeboxthree img {
+    width: 1024px;
+    height: 225.1px;
+}
+
+/* Links */
+.red-link{
+    color: #ff5252;
+}
+.yellow-link{
+    color: #ffe505;
+}
+.green-link{
+    color: #5aff91;
+}
+.white-link{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
