@@ -1,0 +1,158 @@
+.navbar {
+    display: inline;
+}
+.navbarfixed {
+    position:fixed;
+    z-index:1;
+    width: 100%;
+    top: 0;
+}
+#navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    border: 3px solid black;
+}
+.navbar a:hover:not(.active) {
+    background-color: #111;
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#homenav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#homenav a:hover:not(.active) {
+    background-color: #107dac;
+}
+#homenav {
+    display: inline;
+    float: left;
+    background-color: #50b8e7;
+}
+#marionav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#marionav a:hover:not(.active) {
+    background-color: #b83838;
+}
+#marionav {
+    display: inline;
+    float: left;
+    background-color: #ff5252;
+}
+#smashnav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#zeldanav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#zeldanav a:hover:not(.active) {
+    background-color: #329453;
+}
+#zeldanav {
+    display: inline;
+    float: left;
+    background-color: #5aff91;
+}
+#smashnav a:hover:not(.active) {
+    background-color: 	#ffb805;
+}
+#smashnav {
+    display: inline;
+    float: left;
+    background-color: #ffe505;
+}
+/* SMASH PAGE */
+#smashbody {
+    margin: 0;
+    background: url('https://media.discordapp.net/attachments/1195548450289369160/1204868005365030932/image.png?ex=65d64bc5&is=65c3d6c5&hm=0e87a38133d2530c081ade946653d24d413b29723200125a79f7abfb1875a734&=&format=webp&quality=lossless&width=1440&height=810') no-repeat center center fixed;
+    background-size: cover;
+}
+#contentboxsmash {
+    background-color: rgb(23, 143, 164);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    width: 390px;
+    color: white;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    height: 570px;
+}
+#contentboxsmash a {
+    color: white;
+    
+}
+#smashbox {
+    background-color: rgb(241, 231, 22);
+    border: 2px solid rgb(228, 228, 11);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    left: 200px;
+    top: 50px;
+    width: 900px;
+    color: rgb(33, 27, 27);
+    position: relative;
+    margin-bottom: 54px;
+}
+#smashbox img {
+    image-resolution: 500px*500px;
+}
+#sc h2 {
+    color: #149408;
+    font-size: 25px;
+    opacity: 100%
+}
+#smashtitle {
+    font-weight: 100;
+}
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* FOOTER SECTION */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    border: 3px solid black;
+    position:sticky;
+}
+hr {
+    border: 1px solid #ccc;
+}
