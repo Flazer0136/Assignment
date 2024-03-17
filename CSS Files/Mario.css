@@ -87,10 +87,9 @@
     background-color: #ffe505;
 }
 /* MARIO PAGE */
-.mariobody {
+#mariobody {
     margin: 0;
-    background: url('https://i.pinimg.com/originals/15/ff/49/15ff49b333d32f5835c34c699fac43f7.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: url(BG-images/Background.jpg) no-repeat center center fixed;
 }
 #mariobox {
     background-color: white;
