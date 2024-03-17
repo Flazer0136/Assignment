@@ -3,18 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>My Website</title>
-        <link rel="stylesheet" href="./CSS Files/index.css">
+        <link rel="stylesheet" href="./CSS-Files/index.css">
         <link rel="icon" href="Pictures/Icons/Nintendo.png" type="image/x-icon">
-        <nav class="navbarfixed">
-            <ul id="navul">
-                <li id="homenav"> <a href="./index.html">Home</a> </li>
-                <li class="navbar"> <a href="./mario.html">Mario</a> </li>
-                <li class="navbar"> <a href="./zelda.html">Zelda</a> </li>
-                <li class="navbar"> <a href="./smash.html">Smash Bros</a> </li>
-            </ul>
-        </nav>
     </head>
     <body id="homebody">
+        <header>
+            <nav class="navbarfixed">
+                <ul id="navul">
+                    <li id="homenav"> <a href="./index.html">Home</a> </li>
+                    <li class="navbar"> <a href="./mario.html">Mario</a> </li>
+                    <li class="navbar"> <a href="./zelda.html">Zelda</a> </li>
+                    <li class="navbar"> <a href="./smash.html">Smash Bros</a> </li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <div class="boxes"></div>
                 <section id="homebox">
@@ -36,9 +38,9 @@
                             </ul>
                     </article>
                 </section>
-                <section id="homeboxtwo"> 
-                    <img src='Pictures/index-pics/Box-2.jpg'>
-                </section>
+                <div id="homeboxtwo"> 
+                    <img src='Pictures/index-pics/Box-2.jpg' alt="Box-2">
+                </div>
                 <section id="homeboxmain">
                     <h2>About the Games</h2>
                     <p>Because The Legend of Zelda series and the Super Mario series were both created by Shigeru Miyamoto, elements from both series have often been referenced by the other.</p>
