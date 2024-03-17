@@ -155,6 +155,7 @@ main {
     margin-top: 100px;
 }
 #homeboxtwo img {
+    border-radius: 15px;
     width: 415px;
     height: 415px;
 }
@@ -184,6 +185,11 @@ main {
 #homeboxthree img {
     width: 1024px;
     height: 225.1px;
+}
+@media screen and (max-width: 960px) {
+    #homeboxthree img {
+        display: none;
+    }
 }
 
 /* Links */

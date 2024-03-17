@@ -134,12 +134,12 @@
 table, th, td {
     border:1px solid black;
     text-align: center;
-  }
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* FOOTER SECTION */

@@ -89,8 +89,7 @@
 /* SMASH PAGE */
 #smashbody {
     margin: 0;
-    background: url('https://media.discordapp.net/attachments/1195548450289369160/1204868005365030932/image.png?ex=65d64bc5&is=65c3d6c5&hm=0e87a38133d2530c081ade946653d24d413b29723200125a79f7abfb1875a734&=&format=webp&quality=lossless&width=1440&height=810') no-repeat center center fixed;
-    background-size: cover;
+    background: url(BG-images/smash.png) no-repeat center center fixed;
 }
 #contentboxsmash {
     background-color: rgb(23, 143, 164);
@@ -122,9 +121,6 @@
     position: relative;
     margin-bottom: 54px;
 }
-#smashbox img {
-    image-resolution: 500px*500px;
-}
 #sc h2 {
     color: #149408;
     font-size: 25px;
@@ -136,12 +132,12 @@
 table, th, td {
     border:1px solid black;
     text-align: center;
-  }
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* FOOTER SECTION */
