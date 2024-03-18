@@ -90,8 +90,10 @@
 #mariobody {
     margin: 0;
     background: url(BG-images/mario.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 #mariobox {
+    column-count: 1;
     background-color: white;
     border: 2px solid black;
     border-radius: 15px;
@@ -127,6 +129,24 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+@media screen and (max-width: 1120px) {
+
+    #mariobox, #mariobox img {
+        font-size: xx-large;
+        width: 760px;
+    }
+    table {
+        font-size: x-large;
+    }
+    .navbarfixed {
+        font-size: xx-large;
+        align-items: center;
+    }
+    .mariomenu {
+        width: 70px;
+        height: 69px;
+    }
 }
 
 /* Mario Menu Button */
