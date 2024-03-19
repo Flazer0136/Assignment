@@ -15,11 +15,18 @@
     position: fixed;
     top: 50px;
     left: 0px;
-    height: 570px;
+    height: 300px;
 }
 #contentboxsmash a {
     color: white;
-    
+}
+#sec {
+    column-count: 2;
+    column-rule: solid white 2px;
+}
+#creation p {
+    column-count: 2;
+    column-rule: solid white 2px;
 }
 #smashbox {
     column-count: 1;
@@ -100,11 +107,11 @@ main {
     .dropdown-content {
         display: none;
         border: 3px solid black;
-        width: 400px;
-        height: 270px;
-        font-size: 16px;
+        width: 600px;
+        height: 370px;
+        font-size: 30px;
         background-color: #333333;
-        line-height: 30px;
+        line-height: 50px;
         z-index: 1;
         text-align: center;
         position: absolute;

@@ -53,6 +53,8 @@ main {
     height: 415px;
 }
 #homeboxmain {
+    column-rule: solid #ff0000;
+    column-count: 3;
     background: white;
     border: 3px solid black;
     border-radius: 15px;

@@ -22,7 +22,6 @@
     display: block;
 }
 #zeldabox {
-    column-count: 1;
     background-color: rgb(33, 181, 97);
     border: 2px solid black;
     border-radius: 15px;
@@ -47,6 +46,10 @@
 table, th, td {
     border:1px solid black;
     text-align: center;
+}
+#creation p {
+    column-count: 2;
+    column-rule: solid rgb(255, 255, 255) 2px;
 }
 main {
   display: flex;
@@ -99,9 +102,9 @@ main {
     .dropdown-content {
         display: none;
         border: 3px solid black;
-        width: 400px;
+        width: 700px;
         height: 1070px;
-        font-size: 16px;
+        font-size: 30px;
         background-color: #333333;
         line-height: 30px;
         z-index: 1;
